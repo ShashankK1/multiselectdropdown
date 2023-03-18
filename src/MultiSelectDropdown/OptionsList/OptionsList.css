@@ -1,0 +1,32 @@
+.optionList {
+  display: flex;
+  column-gap: 8px;
+  padding-right: 12px;
+}
+.option-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 4px;
+  padding-right: 16px;
+}
+.option-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.option-main {
+  display: flex;
+  column-gap: 8px;
+}
+.optionListMembers {
+  display: flex;
+  flex-direction: column;
+}
+.members {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}

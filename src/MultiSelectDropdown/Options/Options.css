@@ -1,0 +1,7 @@
+.options-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  max-height: 200px;
+  overflow: auto;
+}

@@ -1,0 +1,22 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+.multiselectdropdown-container {
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  border: none;
+  outline: none;
+}
+.container {
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+}
+.list-container {
+  display: flex;
+  column-gap: 4px;
+}
