@@ -1,7 +1,6 @@
-import React from 'react';
-import OptionsList from '../OptionsList/OptionsList';
-
-const Options = ({ data, handler, selectedData, optionstyling }) => {
+import React from 'react'
+import Optionlist2 from '../Optionlist2/Optionlist2';
+const Option2 = ({ data, handler, selectedData, optionstyling }) => {
     const dataHandler = (data, status) => {
         handler(data, status);
     }
@@ -16,7 +15,7 @@ const Options = ({ data, handler, selectedData, optionstyling }) => {
                             return data.find((d) => d.id === id)
                         });
                     const checked = selectedData.find((data) => data.id === list.id);
-                    return <OptionsList
+                    return <Optionlist2
                         key={list.id}
                         data={list}
                         dataHandler={dataHandler}
@@ -31,4 +30,4 @@ const Options = ({ data, handler, selectedData, optionstyling }) => {
     )
 }
 
-export default Options
+export default Option2;
